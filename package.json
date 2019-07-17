@@ -1,6 +1,6 @@
 {
     "name": "@synapsium/ngx-enumr",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Component is an enum visualizer converting your enum into icon or image.",
     "author": "https://github.com/synapsium/ngx-enumr/graphs/contributors",
     "license": "MIT",
@@ -28,6 +28,13 @@
     },
     "private": false,
     "dependencies": {
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^0.801.1",
+        "@angular-devkit/build-ng-packagr": "^0.13.9",
+        "@angular/cli": "~7.0.1",
+        "@angular/compiler-cli": "~7.0.0",
+        "@angular/language-service": "~7.0.0",
         "@angular/animations": "~7.0.0",
         "@angular/common": "~7.0.0",
         "@angular/compiler": "~7.0.0",
@@ -37,14 +44,7 @@
         "@angular/platform-browser-dynamic": "~7.0.0",
         "rxjs": "~6.4.0",
         "tslib": "^1.9.0",
-        "zone.js": "~0.9.1"
-    },
-    "devDependencies": {
-        "@angular-devkit/build-angular": "~0.13.9",
-        "@angular-devkit/build-ng-packagr": "^0.13.9",
-        "@angular/cli": "~7.0.1",
-        "@angular/compiler-cli": "~7.0.0",
-        "@angular/language-service": "~7.0.0",
+        "zone.js": "~0.9.1",
         "@types/jasmine": "~3.3.8",
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
