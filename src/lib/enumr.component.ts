@@ -1,19 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Enumr } from './models/enumr';
 
 @Component({
-  selector: 'lib-enumr',
-  template: `
-    <p>
-      enumr works!
-    </p>
-  `,
-  styles: []
+  selector: 'enumr',
+  templateUrl: './enumr.component.html',
+  styleUrls: ['./enumr.component.scss']
 })
 export class EnumrComponent implements OnInit {
 
+  @Input() dataset: Array<Enumr>;
+  @Input() model: any;
+  
   constructor() { }
 
   ngOnInit() {
   }
-
 }
