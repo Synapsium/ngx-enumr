@@ -3,7 +3,8 @@
     <ng-template [ngIf]="item.enum == model">
         <div class="enumr-container">
             <i *ngIf="item.iconClassName" [ngClass]="item.iconClassName"></i>
-            <img *ngIf="item.imgSrc" [src]="item.imgSrc" [ngClass]="item.imgClassName" [attr.srcset]="item.imgSrcSet" [attr.alt]="item.imgAlt" />
+            <img *ngIf="item.imgSrc" [src]="item.imgSrc" [attr.srcset]="item.imgSrcSet" [attr.alt]="item.imgAlt" />
+            <enumr-svg *ngIf="item.svg" [svg]="item.svg"></enumr-svg>
         </div>
     </ng-template>
 </ng-template>

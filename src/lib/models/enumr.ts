@@ -6,4 +6,5 @@ export class Enumr {
     public imgSrcSet?: string;
     public imgAlt?: string;
     public imgClassName?: string;
+    public svg?: string;
 }

@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.enums = dataset;   
-    console.log(this.enums); 
-    this.status = Status.Validated;
+    this.status = Status.Waiting;
   }
 }
